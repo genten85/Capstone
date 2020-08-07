@@ -1,7 +1,7 @@
 var map = L.map("map", {
   center: [32.759547, -97.035321], // Dallas-Fort Worth Texas
-  zoom: 11,
-  minZoom: 10,
+  zoom: 10,
+  minZoom: 9,
 });
 
 var defaultBase = L.tileLayer.provider("Stamen.TonerLite").addTo(map);
